@@ -7,4 +7,7 @@ class Engineer extends Employee {
     getRole() {
         return "Engineer"
     }
+    getGithubuser() {
+        
+    }
 }

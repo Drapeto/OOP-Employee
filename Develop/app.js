@@ -13,7 +13,7 @@ const render = require("./lib/htmlRenderer");
 
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
-function managerInfo(name, id, email) {
+function managerInfo(name, id, email, number) {
     inquirer.prompt(
         {
             type: "input",
@@ -22,7 +22,7 @@ function managerInfo(name, id, email) {
     )
 }
 
-function engineerInfo(name, id, email) {
+function engineerInfo(name, id, email, gitHubuser) {
     inquirer.prompt(
         {
             type: "input",
@@ -31,7 +31,7 @@ function engineerInfo(name, id, email) {
     )
 }
 
-function internInfo(name, id, email) {
+function internInfo(name, id, email, school) {
     inquirer.prompt(
         {
             type: "input",
